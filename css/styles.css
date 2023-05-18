@@ -1,0 +1,62 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+body{
+    font-family: sans-serif;
+    margin: 0%;
+}
+
+header{
+    height: 12vh;
+    background-color: white ;
+    display: flex;
+    justify-content: flex-start;
+}
+
+main{
+    margin: 5%;
+    margin-top: 3%;
+}
+
+.logo{
+    height: 10vh;
+    margin-left: 2rem;
+    align-self: center;
+
+}
+
+
+h1{
+    color: black;
+    width: fit-content;
+    padding: 5%;
+    align-self: center;
+}
+
+h2{
+    color: #0096DA;
+}
+
+h3{
+    color: #006794;
+}
+
+p{
+    font-size: 12px;
+}
+
+@media screen and (max-width: 576px) {
+    h1{
+        font-size: 20px;
+    }
+
+    h2{
+        font-size: 16px;
+    }
+    
+    h3{
+        font-size: 12px;
+    }
+}
