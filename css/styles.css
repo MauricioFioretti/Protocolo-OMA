@@ -145,6 +145,10 @@ main .atajos {
         padding: 5px 10px;
     }
 
+    main .index .btn {
+        margin-bottom: 1rem;
+    }
+
     h1 {
         font-size: 20px;
     }
