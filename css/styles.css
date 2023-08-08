@@ -68,7 +68,7 @@ p {
     font-size: 1rem;
 }
 
-main .atajos{
+main .atajos {
     margin-top: 20px;
 }
 
@@ -140,6 +140,11 @@ main .atajos{
 }
 
 @media screen and (max-width: 576px) {
+    main .botones .btn {
+        margin-right: 1rem;
+        padding: 5px 10px;
+    }
+
     h1 {
         font-size: 20px;
     }
@@ -162,7 +167,7 @@ main .atajos{
         margin: 0;
     }
 
-    main .atajos{
+    main .atajos {
         margin-top: 20px;
     }
 
@@ -171,8 +176,8 @@ main .atajos{
     .go-top-container {
         bottom: 1rem;
         right: 1rem;
-        width: 2.6rem;
-        height: 2.6rem;
+        width: 3rem;
+        height: 3rem;
     }
 
     .go-top-button {
@@ -187,8 +192,8 @@ main .atajos{
     }
 
     .show .go-top-button {
-        width: 2.6rem;
-        height: 2.6rem;
+        width: 3rem;
+        height: 3rem;
     }
 
     .show i {
@@ -207,8 +212,8 @@ main .atajos{
         }
 
         100% {
-            width: 2.6rem;
-        height: 2.6rem;
+            width: 3rem;
+            height: 3rem;
         }
     }
 }
